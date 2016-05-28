@@ -7,7 +7,7 @@ class DrsbdPermission {
     public function dbConnect(){
         //$connect = mysqli_connect('localhost','root','','drshddinventory') or die(mysqli_connect_errno());
         //var_dump($connect);
-        $connect = mysqli_connect("datarecoverystationc.ipagemysql.com","drshddinventory","Nevertouch6735!","drshddinventory") or die(mysqli_connect_error());
+        $connect = mysqli_connect("kodaatcom.ipagemysql.com","drshddinventory","Data@Recovery!Station","drshddinventorydb") or die(mysqli_connect_error());
         //$db = mysql_select_db("DRSBD_HDD_INVENTORY") or die(mysql_error());
         //exit;
         //echo $connect->begin_transaction(); exit;
